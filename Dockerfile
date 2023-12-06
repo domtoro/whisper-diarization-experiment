@@ -1,11 +1,11 @@
 # syntax=docker/dockerfile:1
 
 # Use an official NVIDIA CUDA base image
-FROM nvidia/cuda:12.1.0-base-ubuntu22.04
+FROM nvidia/cuda:12.2.2-base-ubuntu22.04
 
 # Metadata
 LABEL maintainer="Domingo Toro (domtoro) <domingo.toro@tutanota.com>"
-LABEL version="0.0.1"
+LABEL version="0.0.2"
 LABEL source="https://github.com/domtoro/whisper-diarization-experiment"
 
 # Set the working directory, we use /app which seems to become some pseudo-standard and we have no preference
